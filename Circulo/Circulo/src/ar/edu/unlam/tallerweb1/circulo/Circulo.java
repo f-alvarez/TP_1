@@ -12,13 +12,13 @@ public class Circulo {
 	}
 	
 		
-	public Double CalcularArea(){
+	public Double calcularArea(){
 		
 		 return this.radio*radio*Math.PI;
 			
 	}
 	
-	public Double CalcularPerimetro(){
+	public Double calcularPerimetro(){
 		return this.radio*2*Math.PI;
 	}
 
